@@ -1,7 +1,7 @@
 //CLASE PROMISES
 
 import { useState, useEffect } from "react";
-import CatalogoMaps from "./CatalogoMaps";
+import ItemListContainer from "./ItemListContainer";
 import ContadorConBoton from "./ContadorConBoton";
 
 const Spinner = () => {
@@ -46,7 +46,7 @@ const Promises = () =>{
 
 	return(
 	<>
-		<CatalogoMaps />
+		<ItemListContainer />
 		<ContadorConBoton />
 	</>
 )};

@@ -1,5 +1,5 @@
 //card para mostrar info de productos
-import ItemListContainer from "./ItemListContainer";
+import ItemAddCart from "./ItemAddCart";
 import {Link} from  'react-router-dom';
 
 
@@ -13,7 +13,7 @@ const Item = ({ name, precio, img }) =>{
 		    <p className="card-text">${precio}</p>
 		    <Link to={"/detail"}> <button className ="btn-mod btn btn-primary"> See product details</button> </Link>
 
-		    <ItemListContainer />
+		    <ItemAddCart />
 	  	</div>
 	</div>
 	</div>
